@@ -1,0 +1,33 @@
+[2024-12-29 22:05:26.295699] [0x00008498] [trace]   Embedded OCIO configuration file: 'j:\Downloads\Meshroom-2023.3.0-win64\Meshroom-2023.3.0\aliceVision/share/aliceVision/config.ocio' found.
+Program called with the following parameters:
+ * allowSingleView = 1
+ * allowedCameraModels = "pinhole,radial1,radial3,brown,fisheye4,fisheye1,3deanamorphic4,3deradial4,3declassicld"
+ * colorProfileDatabase = "" (default)
+ * defaultCameraModel = "" (default)
+ * defaultFieldOfView = 45
+ * defaultFocalLength = -1 (default)
+ * defaultFocalRatio = 1 (default)
+ * defaultOffsetX = 0 (default)
+ * defaultOffsetY = 0 (default)
+ * errorOnMissingColorProfile = 1 (default)
+ * groupCameraFallback =  Unknown Type "enum EGroupCameraFallback"
+ * imageFolder = "" (default)
+ * input = "" (default)
+ * lensCorrectionProfileInfo = "${ALICEVISION_LENS_PROFILE_INFO}"
+ * lensCorrectionProfileSearchIgnoreCameraModel = 1
+ * maxCoresAvailable =  Unknown Type "unsigned int" (default)
+ * maxMemoryAvailable = 18446744073709551615 (default)
+ * output = "C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/CameraInit/961e54591174ec5a2457c66da8eadc0cb03d89ba/cameraInit.sfm"
+ * rawColorInterpretation =  Unknown Type "enum aliceVision::image::ERawColorInterpretation"
+ * sensorDatabase = "j:\Downloads\Meshroom-2023.3.0-win64\Meshroom-2023.3.0\aliceVision\share\aliceVision\cameraSensors.db"
+ * verboseLevel = "info"
+ * viewIdMethod =  Unknown Type "enum aliceVision::sfmDataIO::EViewIdMethod"
+ * viewIdRegex = ".*?(\d+)" (default)
+
+Hardware : 
+	Detected core count : 20
+	OpenMP will use 20 cores
+	Detected available memory : 39423 Mo
+
+[22:05:26.297699][error] Program need -i or --imageFolder option
+No input images.

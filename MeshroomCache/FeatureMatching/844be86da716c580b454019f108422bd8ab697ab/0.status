@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "FeatureMatching_1",
+    "nodeType": "FeatureMatching",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_featureMatching  --input \"C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/CameraInit/9471fb61d0da32d9125af6e168bdb5467eba82b0/cameraInit.sfm\" --featuresFolders \"C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/FeatureExtraction/b0af4356dd9c564411e73ab147a459d1d78f8062\" --imagePairsList \"C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/ImageMatching/8f9c8839a77b7a6ada4a4459672b2530a80e8c74/imageMatches.txt\" --describerTypes dspsift --photometricMatchingMethod ANN_L2 --geometricEstimator acransac --geometricFilterType fundamental_matrix --distanceRatio 0.8 --maxIteration 2048 --geometricError 0.0 --knownPosesGeometricErrorMax 5.0 --minRequired2DMotion -1.0 --maxMatches 0 --savePutativeMatches False --crossMatching False --guidedMatching False --matchFromKnownCameraPoses False --exportDebugFiles False --verboseLevel info --output \"C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/FeatureMatching/844be86da716c580b454019f108422bd8ab697ab\" --rangeStart 0 --rangeSize 20",
+    "env": null,
+    "startDateTime": "2024-12-29 22:40:07.975672",
+    "endDateTime": "2024-12-29 22:40:15.782514",
+    "elapsedTime": 7.80533766746521,
+    "hostname": "BIG",
+    "sessionUid": "8c5cb1e4-c61c-11ef-92f0-00e04c239987",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:07.805338"
+}

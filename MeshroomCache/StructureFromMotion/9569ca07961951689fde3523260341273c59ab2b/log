@@ -1,0 +1,73 @@
+[2024-12-29 22:41:52.689774] [0x00008f80] [trace]   Embedded OCIO configuration file: 'j:\Downloads\Meshroom-2023.3.0-win64\Meshroom-2023.3.0\aliceVision/share/aliceVision/config.ocio' found.
+Program called with the following parameters:
+ * bundleAdjustmentMaxOutliers = 50
+ * computeStructureColor = 1
+ * describerTypes = "dspsift"
+ * extraInfoFolder = "C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/StructureFromMotion/9569ca07961951689fde3523260341273c59ab2b"
+ * featuresFolders =  = [C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/FeatureExtraction/b0af4356dd9c564411e73ab147a459d1d78f8062]
+ * filterTrackForks = 0
+ * initialPairA = ""
+ * initialPairB = ""
+ * input = "C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/CameraInit/9471fb61d0da32d9125af6e168bdb5467eba82b0/cameraInit.sfm"
+ * interFileExtension = ".abc"
+ * localBAGraphDistance = 1
+ * localizerEstimator =  Unknown Type "enum aliceVision::robustEstimation::ERobustEstimator"
+ * localizerEstimatorError = 0
+ * localizerEstimatorMaxIterations = 4096
+ * lockAllIntrinsics = 0
+ * lockScenePreviouslyReconstructed = 0
+ * logIntermediateSteps = 0
+ * matchesFolders =  = [C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/FeatureMatching/844be86da716c580b454019f108422bd8ab697ab]
+ * maxAngleInitialPair = 40
+ * maxCoresAvailable =  Unknown Type "unsigned int" (default)
+ * maxImagesPerGroup = 30
+ * maxMemoryAvailable = 18446744073709551615 (default)
+ * maxNumberOfMatches = 0
+ * maxReprojectionError = 4
+ * minAngleForLandmark = 2
+ * minAngleForTriangulation = 3
+ * minAngleInitialPair = 5
+ * minInputTrackLength = 2
+ * minNbCamerasToRefinePrincipalPoint = 3
+ * minNumberOfMatches = 0
+ * minNumberOfObservationsForTriangulation = 2
+ * nbFirstUnstableCameras = 30
+ * observationConstraint =  Unknown Type "enum aliceVision::sfm::EFeatureConstraint"
+ * output = "C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/StructureFromMotion/9569ca07961951689fde3523260341273c59ab2b/sfm.abc"
+ * outputViewsAndPoses = "C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/StructureFromMotion/9569ca07961951689fde3523260341273c59ab2b/cameras.sfm"
+ * randomSeed = 5489 (default)
+ * rigMinNbCamerasForCalibration = 20
+ * useAutoTransform = 1
+ * useLocalBA = 1
+ * useOnlyMatchesFromInputFolder = 0
+ * useRigConstraint = 1
+ * verboseLevel = "info"
+
+Hardware : 
+	Detected core count : 20
+	OpenMP will use 20 cores
+	Detected available memory : 38205 Mo
+
+Loading features
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[22:41:53.780684][info] Fuse matches into tracks: 
+	- # tracks: 449
+	- # images in tracks: 14
+[22:41:53.780684][info] TrackLength, Occurrence
+[22:41:53.780684][info] 	2	388
+[22:41:53.780684][info] 	3	45
+[22:41:53.780684][info] 	4	11
+[22:41:53.780684][info] 	5	5
+Automatic selection of an initial pair:
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[22:41:53.787185][info] robustRelativePose: no sufficient coverage (the model does not support enough samples): 27
+[22:41:53.787185][info] robustRelativePose: no sufficient coverage (the model does not support enough samples): 25
+[22:41:53.787185][info] robustRelativePose: no sufficient coverage (the model does not support enough samples): 21
+[22:41:53.790192][info] robustRelativePose: no sufficient coverage (the model does not support enough samples): 23
+[22:41:53.792192][info] robustRelativePose: no sufficient coverage (the model does not support enough samples): 0
+[22:41:53.792192][error] No valid initial pair found automatically.
+[22:41:53.793194][fatal] No valid initial pair found automatically.

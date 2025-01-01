@@ -1,0 +1,55 @@
+[2024-12-29 22:39:36.676419] [0x00001bd8] [trace]   Embedded OCIO configuration file: 'j:\Downloads\Meshroom-2023.3.0-win64\Meshroom-2023.3.0\aliceVision/share/aliceVision/config.ocio' found.
+Program called with the following parameters:
+ * allowSingleView = 1
+ * allowedCameraModels = "pinhole,radial1,radial3,brown,fisheye4,fisheye1,3deanamorphic4,3deradial4,3declassicld"
+ * colorProfileDatabase = "" (default)
+ * defaultCameraModel = "" (default)
+ * defaultFieldOfView = 45
+ * defaultFocalLength = -1 (default)
+ * defaultFocalRatio = 1 (default)
+ * defaultOffsetX = 0 (default)
+ * defaultOffsetY = 0 (default)
+ * errorOnMissingColorProfile = 1 (default)
+ * groupCameraFallback =  Unknown Type "enum EGroupCameraFallback"
+ * imageFolder = "" (default)
+ * input = "C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/CameraInit/9471fb61d0da32d9125af6e168bdb5467eba82b0/viewpoints.sfm"
+ * lensCorrectionProfileInfo = "${ALICEVISION_LENS_PROFILE_INFO}"
+ * lensCorrectionProfileSearchIgnoreCameraModel = 1
+ * maxCoresAvailable =  Unknown Type "unsigned int" (default)
+ * maxMemoryAvailable = 18446744073709551615 (default)
+ * output = "C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/CameraInit/9471fb61d0da32d9125af6e168bdb5467eba82b0/cameraInit.sfm"
+ * rawColorInterpretation =  Unknown Type "enum aliceVision::image::ERawColorInterpretation"
+ * sensorDatabase = "j:\Downloads\Meshroom-2023.3.0-win64\Meshroom-2023.3.0\aliceVision\share\aliceVision\cameraSensors.db"
+ * verboseLevel = "info"
+ * viewIdMethod =  Unknown Type "enum aliceVision::sfmDataIO::EViewIdMethod"
+ * viewIdRegex = ".*?(\d+)" (default)
+
+Hardware : 
+	Detected core count : 20
+	OpenMP will use 20 cores
+	Detected available memory : 38230 Mo
+
+[22:39:36.687941][info] 0 profile(s) stored in the LCP database.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212633 is out of range.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212639 is out of range.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212601 is out of range.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212519 is out of range.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212615 is out of range.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212630 is out of range.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212527 is out of range.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212548 is out of range.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212513 is out of range.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212618 is out of range.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212626 is out of range.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212544 is out of range.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212556 is out of range.
+[22:39:36.688944][warning] Number in stem of file IMG20241229212510 is out of range.
+[22:39:36.706460][info] CameraInit report:
+	- # Views: 14
+	   - # with focal length initialization (from metadata): 14
+	   - # without metadata: 0
+	   - # with DCP color calibration (raw images only): 0
+	   - # with LCP lens distortion initialization: 0
+	   - # with LCP vignetting calibration: 0
+	   - # with LCP chromatic aberration correction models: 0
+	- # Cameras Intrinsics: 1

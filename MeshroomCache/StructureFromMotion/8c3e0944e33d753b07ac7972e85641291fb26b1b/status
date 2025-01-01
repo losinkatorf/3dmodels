@@ -1,0 +1,18 @@
+{
+    "status": "ERROR",
+    "execMode": "LOCAL",
+    "nodeName": "StructureFromMotion_1",
+    "nodeType": "StructureFromMotion",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_incrementalSfM  --input \"C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/CameraInit/860e1f893529419a10cfc15246170ecaba0a49e6/cameraInit.sfm\" --featuresFolders \"C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/FeatureExtraction/39eaf42e4f145ff264107c62c29739ce35da8d43\" --matchesFolders \"C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/FeatureMatching/2a3ad1692c6583dc640e8eb37865def38c21287b\" --describerTypes dspsift --localizerEstimator acransac --observationConstraint Scale --localizerEstimatorMaxIterations 4096 --localizerEstimatorError 0.0 --lockScenePreviouslyReconstructed False --useLocalBA True --localBAGraphDistance 1 --nbFirstUnstableCameras 30 --maxImagesPerGroup 30 --bundleAdjustmentMaxOutliers 50 --maxNumberOfMatches 0 --minNumberOfMatches 0 --minInputTrackLength 2 --minNumberOfObservationsForTriangulation 2 --minAngleForTriangulation 3.0 --minAngleForLandmark 2.0 --maxReprojectionError 4.0 --minAngleInitialPair 5.0 --maxAngleInitialPair 40.0 --useOnlyMatchesFromInputFolder False --useRigConstraint True --rigMinNbCamerasForCalibration 20 --lockAllIntrinsics False --minNbCamerasToRefinePrincipalPoint 3 --filterTrackForks False --computeStructureColor True --useAutoTransform True --initialPairA \"\" --initialPairB \"\" --interFileExtension .abc --logIntermediateSteps False --verboseLevel info --output \"C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/StructureFromMotion/8c3e0944e33d753b07ac7972e85641291fb26b1b/sfm.abc\" --outputViewsAndPoses \"C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/StructureFromMotion/8c3e0944e33d753b07ac7972e85641291fb26b1b/cameras.sfm\" --extraInfoFolder \"C:/Users/igor/Source/Repos/3dmodels/MeshroomCache/StructureFromMotion/8c3e0944e33d753b07ac7972e85641291fb26b1b\"",
+    "env": null,
+    "startDateTime": "2024-12-29 22:11:26.822856",
+    "endDateTime": "",
+    "elapsedTime": 0,
+    "hostname": "BIG",
+    "sessionUid": "3f4773cc-c613-11ef-8235-00e04c239987",
+    "returnCode": 1,
+    "elapsedTimeStr": "0:00:00"
+}
